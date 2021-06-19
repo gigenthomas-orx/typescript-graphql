@@ -25,12 +25,10 @@
 ## Queries  
   query {
   returnSingleCategory( id: "60cd7bc5e11049e22c1f6aea")
-{name,
-description,
-  id
-  
-}
-  
-  
+   {
+    name,
+    description,
+    id
+  }
 }
 
