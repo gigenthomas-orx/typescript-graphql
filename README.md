@@ -17,6 +17,20 @@
   Note: Run `npm install` to install all the projects dependencies...
   
   
-  Mutations
+##  Mutations
   
   mutation { createCategory(data : {name: "T Shirt",description:"This is a t shirt" }) { name, description, id } }
+  
+  
+## Queries  
+  query {
+  returnSingleCategory( id: "60cd7bc5e11049e22c1f6aea")
+{name,
+description,
+  id
+  
+}
+  
+  
+}
+
